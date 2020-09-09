@@ -1,0 +1,66 @@
+<div class = "text-center fadeInDown" id = "adivinanza">
+    <br>
+    <h1>ADIVINA EL ADIVINADOR</h1>
+    <br>
+    <h2>
+        Somos muchos hermanitos, en una sola casa vivimos,
+        si nos rascan la cabeza al instante morimos.
+    </h2>
+
+    <form onsubmit="return false;" >
+        <input type="text" placeholder="Ingresa su respuesta" id="respuesta" >
+        <input type="button" value="Ver solucion" id="btnprobar">
+     </form>
+     <br>
+    <div>
+        <div style = "display: flex;">
+            <h3>
+                Pista:  
+            </h3>
+            <h3>
+                   
+                <div id = "pista"></div>
+            </h3>
+        </div>
+        <br>
+        <div style = "display: flex;">
+            <h3>
+                Intentos disponibles:  
+            </h3>
+            <h3>
+                <div id = "intentos"></div>
+            </h3>
+        </div>
+        <br>
+        <div style = "display: flex;">
+            <h4>
+                Cantidad de intentos probados: 
+            </h4>
+            <h4>
+                <div id = "cantidad"></div>
+            </h4>
+        </div>
+        <br>
+        <div style = "display: flex;">
+            <h4>
+                Repuestas probadas:
+            </h4>
+            <h4>
+                <div id = "resultados"></div>
+            </h4>
+        </div>
+        <br>
+        <div style = "display: flex;">
+            <h4>
+                Estado de intentos: 
+            </h4>
+            <h4>
+                <div id = "estado"></div>
+            </h4>
+        </div>
+        <br>
+    </div>
+</div>
+
+<script src="js/ajax.js"></script>
+<script src="js/java.js"></script>
